@@ -1,12 +1,12 @@
 import React from 'react'
-import Navbar from './Navbar/Navbar'
-import Home from './conditionalEx/Home'
-import Employee from './listRendering/Employee'
+import Navbar from './navbar/Navbar'
+//import User from './ListRenderingEx/User'
+import User from './compLifeCycle/User'
 const App = () => {
   return (
     <div>
-      <Navbar/>
-      <Employee/>
+        <Navbar/>
+        <User/>
     </div>
   )
 }
